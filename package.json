@@ -16,10 +16,14 @@
     "eslint-config-next": "13.4.12",
     "husky": "^8.0.3",
     "next": "13.4.12",
+    "prettier": "^3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "stylelint": "^15.10.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/gtag.js": "^0.0.12"
   },
   "packageManager": "npm@9.5.1",
   "engines": {
