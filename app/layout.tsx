@@ -1,6 +1,6 @@
 import "./globals.css";
 import { M_PLUS_1p } from "next/font/google";
-import { GoogleAnalytics } from "./_components/google-analytics";
+// import { GoogleAnalytics } from "./_components/google-analytics";
 import { Layout } from "./_components/layouts";
 import { generateMetadata } from "./_libs/generate-metadata";
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link href="https://use.typekit.net/wkk8rlj.css" rel="stylesheet" />
-        <GoogleAnalytics />
+        {/* <GoogleAnalytics /> */}
       </head>
       <body className={mPlus1P.className}>
         <Layout>{children}</Layout>
