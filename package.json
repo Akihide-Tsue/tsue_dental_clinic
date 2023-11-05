@@ -27,7 +27,7 @@
   },
   "packageManager": "npm@9.5.1",
   "engines": {
-    "node": "18.16.0",
+    "node": "18.17.1",
     "npm": "9.5.1"
   }
 }
