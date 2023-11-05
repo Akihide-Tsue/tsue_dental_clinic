@@ -31,30 +31,15 @@ export const generateMetadata = (
       ...metadata.openGraph,
     },
     title,
-    twitter: {
-      card: "summary_large_image",
-      creator: "@news_ent214",
-      site: "@news_ent214",
-      ...metadata.twitter,
-    },
-    verification: {
-      google: "サーチコンソールのやつ",
-      ...metadata.verification,
-    },
-
-    //TODO no-indexの設定
-    robots: {
-      index: false,
-      follow: true,
-      nocache: true,
-      googleBot: {
-        index: true,
-        follow: false,
-        noimageindex: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
+    // twitter: {
+    //   card: "summary_large_image",
+    //   creator: "@news_ent214",
+    //   site: "@news_ent214",
+    //   ...metadata.twitter,
+    // },
+    // verification: {
+    //   google: "サーチコンソールのやつ",
+    //   ...metadata.verification,
+    // },
   } satisfies Metadata;
 };
