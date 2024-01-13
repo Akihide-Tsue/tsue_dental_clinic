@@ -757,3 +757,42 @@ img.fl {
 }
 
 }
+
+.kyosei_container {
+	display: block;
+	width: 100%;
+}
+
+.kyosei_card {
+	margin-bottom: 12px;
+	border-radius: 12px;
+	background-color: #fafafa;
+	color: #4e4d4d;
+	padding: 8px 12px 0 12px;
+}
+
+.kyosei_card_2 {
+	margin-bottom: 12px;
+	border-bottom: 1px solid #dddcdc;
+	color: #4e4d4d;
+	padding: 8px;
+}
+
+.spacer_16{
+	height:16px;
+}
+
+.kyosei_index {
+	padding-left: 8px;
+}
+
+.logo_title {
+	padding-left: 16px;
+}
+
+@media (max-width: 520px) {
+	.logo_title {
+		padding-left: 0px;
+		text-align: center;
+	}
+}
