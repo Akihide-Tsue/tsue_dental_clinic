@@ -48,6 +48,8 @@ header #inner {
 	height: 100px;	/*高さ*/
 	margin: 0 auto;
 	position: relative;
+	display: flex;
+	align-items: center;
 }
 /*ロゴ画像*/
 header #logo {
@@ -530,6 +532,8 @@ img.fl {
 /*サイト幅にしたheader内のブロック*/
 header #inner {
 	width: auto;
+	display: flex;
+	align-items: center;
 }
 
 /*メインメニュー
@@ -619,6 +623,7 @@ header #inner {
 	height: auto;
 	text-align: center;
 	padding-top: 10px;
+	display: block;
 }
 /*ロゴ画像*/
 header #logo {
